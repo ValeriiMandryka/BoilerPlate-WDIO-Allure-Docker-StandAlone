@@ -11,12 +11,12 @@ jobs:
             node-version: 16.X
         - name: Install
           run: npm install
-        # - name: Install Selenium
-        #   run: npm install @wdio/selenium-standalone-service --save-dev
-        # - name: Install Allure
-        #   run: npm install @wdio/allure-reporter --save-dev
-        # - name: Install Allure comandline
-        #   run: npm i allure-commandline
+        - name: Install Selenium
+          run: npm install @wdio/selenium-standalone-service --save-dev
+        - name: Install Allure
+          run: npm install @wdio/allure-reporter --save-dev
+        - name: Install Allure comandline
+          run: npm i allure-commandline
         - name: Test
           run: npx wdio run wdio.conf.js
         - name: Generate report
