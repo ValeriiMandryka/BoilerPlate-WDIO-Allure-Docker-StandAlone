@@ -4,12 +4,12 @@
 Template repository for project based on WDIO framefork with configurated GitHub actions and Allure report. Can be used for auto testing on Chrome/Firefox/Edge browsers with Allure Report. 
 
 ##  Envoirment for succesfull test runung:
-    [Node.js](https://nodejs.org/uk/)
-    [VSC](https://code.visualstudio.com/download)
+   [Node.js](https://nodejs.org/uk/)
+   [VSC](https://code.visualstudio.com/download)
    
    
 ##  Envoirment to run in Docker:
-    [Docker](https://docs.docker.com/desktop/install/windows-install/)
+   [Docker](https://docs.docker.com/desktop/install/windows-install/)
     
 ##  Plugins:
    1. [selenium-standalon](https://webdriver.io/docs/selenium-standalone-service/)
