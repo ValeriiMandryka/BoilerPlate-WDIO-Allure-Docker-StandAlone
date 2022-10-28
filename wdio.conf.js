@@ -67,13 +67,11 @@ exports.config = {
             acceptInsecureCerts: true
             },
             {
-    
-                maxInstances: 1,
-                browserName: 'MicrosoftEdge',
-               'ms:edgeOptions': {args: [ '--headless','--start-maximized', '--no-sandbox', '--disable -gpu', '--window-size=1920,780', '--allow-insecure-localhost']},
-                acceptInsecureCerts: true,
-               
-                },
+            maxInstances: 1,
+            browserName: 'MicrosoftEdge',
+            'ms:edgeOptions': {args: [ '--headless','--start-maximized', '--no-sandbox', '--disable -gpu', '--window-size=1920,780', '--allow-insecure-localhost']},
+            acceptInsecureCerts: true,
+            },
             
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
